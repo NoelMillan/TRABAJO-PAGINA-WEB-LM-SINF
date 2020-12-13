@@ -1,0 +1,332 @@
+body {
+    margin: 0;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(18, 0, 61);
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+li a:hover {
+    background-color: rgb(21, 3, 104);
+}
+.active {
+    background-color: rgb(76, 5, 117);
+}
+.active:hover {
+    background-color:  rgb(107, 4, 167);
+}
+#fondo {
+    position: relative;
+    background-image: url('../imagenes/fondoback.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: auto;
+}
+#fondo h1 {
+    position: absolute;
+    color: white;
+    top: 80px;
+    right: 150px;
+    font-size: 2.5em;
+    text-shadow: 3px 3px 3px navy;
+}
+#container {
+    width: 80%;
+    margin: auto;
+    height: 5000px;
+}
+#menufix {
+    position: fixed;
+    top: 0;
+    width: 80%;
+}
+#introduccion {
+    margin-left: 5%;
+    margin-right: 5%;
+    border-bottom:3px solid navy;
+}
+#introduccion p {
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 1.9em;
+    text-align: center;
+    text-decoration: none;
+}
+@media only screen and (max-width: 1010px) {
+    .topnav li {display: none;}
+    .topnav li.lista {
+        float: left;
+        display: block;
+    }
+    #fondo h1 {
+        right: 50px;
+    }
+}
+.lista {
+    float: left;
+}
+li.lista {
+    display: inline-block;
+    display: none;
+    background-color: rgb(76, 5, 117);
+}
+.contenido {
+    display: none;
+    position: absolute;
+    background-color: rgb(18, 0, 61);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.contenido a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.lista:hover .contenido {
+    display: block;
+}
+.grid3col {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.col3 {
+    padding: 10%;
+    margin-top: 10%;
+    margin-left: 3%;
+    margin-right: 3%;
+    border-left: 2px solid rgb(104, 16, 101);
+}
+.col3 img {
+    margin-top: 5%;
+    width: 100%;
+}
+.col3 h1 {
+    margin-top: -5%;
+    text-align: center;
+    color: black;
+    font-size: 1.8em;
+}
+.col3 img.img3 {
+    margin-top: -6%;
+}
+.col3 p {
+    text-align: center;
+    font-size: 1.5em;
+}
+#columna3 {
+    border-right: 2px solid rgb(104, 16, 101);
+}
+#linea {
+    margin-top: 3.3%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-bottom:3px solid navy;
+}
+#bloque {
+    border: 2px solid navy;
+    border-radius: 1%;
+    margin-top: 6%;
+    height: 700px;
+}
+#bloqueimagen {
+    float: right;
+    margin: 3%;
+}
+#bloque p {
+    margin: 4%;
+    font-size: 2.3em;
+    text-align: center;
+}
+.boton {
+    background-color: navy;
+    border: none;
+    color: white;
+    border-radius: 7%;
+    padding: 10px;
+    margin-left: 40%;
+    margin-top: 5%;
+    display: none;
+}
+#linea2 {
+    margin-top: 6%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-bottom:3px solid navy;
+}
+.grid2col {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.col2 {
+    margin-top: 10%;
+}
+.col2 p {
+    text-align: center;
+    font-size: 1.8em;
+    padding: 4%;
+}
+.iframe-responsive {
+    padding-top: 4%;
+    width: 80%;
+    height: 100%;
+}
+.iframe-content {
+    width: 900px;
+    height: 700px;
+}
+#linea3 {
+    margin-top: 6%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-bottom:3px solid navy;
+}
+@media only screen and (max-width:1420px){
+    #bloqueimagen {
+        margin-right: 8%;
+        margin-left: 17%;
+    }
+    #bloque {
+        margin: 15%;
+        height: 1200px;
+        width: 600px;
+    }
+    .grid2col {
+        grid-template-columns: 100%;
+    }
+}
+#marcas {
+    margin-top: 5%;
+}
+#marcas img {
+    margin: 4%;
+    width: 110px;
+    height: 130px;
+}
+#marcas .asus img {
+    width: 120px;
+    height: 140px;
+}
+#logo {
+    padding-top: 4%;
+    font-size: 3em;
+    margin: 10%;
+    text-align: center;
+}
+#redes {
+    margin-top: -3%;
+    background-color: rgb(223, 210, 255);
+    height: 600px;
+}
+#redes img {
+    margin-top: 1%;
+    margin-left: 13%;
+    width: 70px;
+    height: 65px;
+}
+#redes h1 {
+    margin-top: -4%;
+    margin-left: 24%;
+    font-size: 2em;
+}
+
+@media only screen and (max-width:1120px){
+    #bloque p {
+        display: none;
+    }
+    #bloqueimagen {
+        margin-right: 7.5%;
+        margin-left: 17%;
+    }
+    #bloque {
+        margin: 8%;
+        height: 550px;
+    }
+    .boton {
+        display: block;
+    }
+    .grid2col {
+        grid-template-columns: 100%;
+    }
+    .iframe-responsive {
+        padding-top: 4%;
+        width: 100%;
+        height: 100%;
+    }
+    .iframe-content {
+        width: 800px;
+        height: 700px;
+    }
+    #redes h1 {
+        margin-top: -8%;
+        margin-left: 30%;
+        font-size: 2em;
+    }
+}
+@media only screen and (max-width:1010px){
+    .grid3col{grid-template-columns: 50% 50%;}
+    #columna2 {
+        border-right: 2px solid rgb(104, 16, 101)
+    }
+    #columna3 {
+        width: 100%;
+        margin-left: 40%;
+        border-right: 2px solid rgb(104, 16, 101)
+    }
+}
+@media only screen and (max-width:600px){
+    .grid3col{grid-template-columns: 100%;}
+    #columna1 {
+        border-right: 2px solid rgb(104, 16, 101)
+    }
+    #columna2 {
+        border-right: 2px solid rgb(104, 16, 101)
+    }
+    #columna3 {
+        width: 73%;
+        margin-left: 3%;
+        margin-right: 90%;
+    }
+    #bloque {
+        margin-left: 5%;
+        width: 400px;
+        height: 400px;
+    }
+    #bloqueimagen img{
+        width: 360px;
+    }
+    .iframe-responsive {
+        padding-top: 4%;
+        width: 100%;
+        height: 100%;
+    }
+    .iframe-content {
+        width: 440px;
+        height: 460px;
+    }
+    #redes h1 {
+        margin-top: -15%;
+        margin-left: 38%;
+        font-size: 2em;
+    }
+}

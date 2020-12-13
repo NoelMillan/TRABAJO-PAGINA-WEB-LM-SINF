@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monitor LED</title>
+    <link rel="stylesheet" href="estilos/estilos.css">
+    <link rel="shortcut icon" href="imagenes/computer.ico" type="image/icon">
+    <script src="javascripts/funcion.js"></script>
+</head>
+<body>
+    <div id="container">
+        <div id="fondo">
+            <h1>
+                MONITOR LED
+            </h1>
+        </div>
+        <nav id="menufix">
+            <ul class="topnav" id="myTopnav">
+                <li><a class="active" href="#fondo">Home</a></li>
+                <li><a href="#introduccion">Introducción</a></li>
+                <li><a href="#tipos">Tipos</a></li>
+                <li><a href="#funcionamiento">Funcionamiento</a></li>
+                <li><a href="#instalacion">Instalación</a></li>
+                <li><a href="#marcas">Marcas</a></li>
+                <li><a href="#redes">Redes</a></li>
+                <li class="lista"><a href="#listas">Más...</a>
+                    <div class="contenido">
+                        <a href="#fondo">Home</a>
+                        <a href="#introduccion">Introducción</a>
+                        <a href="#tipos">Tipos</a>
+                        <a href="#funcionamiento">Funcionamiento</a>
+                        <a href="#instalacion">Instalación</a>
+                        <a href="#marcas">Marcas</a>
+                        <a href="#redes">Redes</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+        <section id="introduccion">
+            <p> La tecnología LED, o Light Emitting Diode, es usada en pantallas LCD, o Liquid Crystal Diode, como retroiluminación proporcionando cualidades tales como una larga esperanza de vida, amplia gama de colores, respuesta rápida, menos dañino con el medio ambiente.</p>
+        </section>
+        <section id="tipos" class="grid3col">
+            <div class="col3" id="columna1">
+                <h1>Matriz Completa</h1>
+                <img src="imagenes/matriz.jpg" alt="">
+                <p>Monitor en el que se usan luces LED detrás del monitor LCD, aumentando tu campo de visión, y consiguiendo una menor fatiga para el ojo</p>
+            </div>
+            <div class="col3" id="columna2">
+                <h1>Monitor OLED</h1>
+                <img src="imagenes/oled.jpg" alt="">
+                <p>Estos monitores usan diodos emisores de luz orgánica, permitiendo aumentar el brillo o disminuir cada píxel del monitor, mejorando así los niveles de negro, colores más nítidos y mejor contraste.</p>
+            </div>
+            <div class="col3" id="columna3">
+                <h1>Monitor EDGELED</h1>
+                <img src="imagenes/edgeled.jpg" class="img3">
+                <p>Estos monitores LED usan bombillas en el borde inferior de la pantalla, consiguiendo unos negros profundos pero con el inconveniente de que resulta complicado iluminar zonas concretas de la pantalla</p>
+            </div>
+        </section>
+        <div id="linea"></div>
+        <section id="funcionamiento">
+            <div id="bloque">
+                <div id="bloqueimagen">
+                    <img src="imagenes/funcionamiento.png" alt="">
+                </div>
+                <button class="boton" onclick="location.href='../TRABAJO PERIFÉRICO/funcionamiento.html'">Saber más...</button>
+                <p>El principal funcionamiento de los monitores LED se basa en el cristal líquido, la cual se encuentra en la pantalla, en la que también se encuentran los transistores y las capas de filtro.</p>
+                <p>Los monitores LED funcionan de manera que los propios LEDs son los que
+                    conforman el píxel de la imagen, componiendo la imagen punto a punto por las
+                    corrientes eléctricas; estas corrientes eléctricas están en un circuito eléctrico,
+                    permitiendo controlar la polarización del cristal líquido.
+                    </p>
+            </div>
+        </section>
+        <div id="linea2"></div>
+        <section id=instalacion class="grid2col">
+            <div class="col2">
+                <div class="iframe-responsive">
+                <iframe class="iframe-content" src="https://www.youtube.com/embed/o73zO93xgYU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="col2">
+                <p>Primero hay que posicionar los armazones uno al lado de otro, uniendo los
+                    armazones horizontales con los verticales.</p>
+                    <p>En cuanto al cableado, empezamos desde el armazón inferior izquierdo,
+                    conectando el sistema reproductor con el puerto DATA IN. Luego conectamos el
+                    puerto DATA OUT al puerto DATA IN en el armazón superior, completando así la
+                    primera columna, de dicho armazón superior conectamos el armazón de al lado, y
+                    así seguimos en orden descendente.</p>
+                    <p>Por último conectamos desde la fuente de alimentación hasta el puerto POWER IN,
+                    el cual está en el primer armazón, y conectamos el puerto POWER OUT a el puerto
+                    POWER IN.</p>
+            </div>
+        </section>
+        <div id="linea3"></div>
+        <section id="marcas">
+            <a href="https://store.hp.com/SpainStore/Merch/Default.aspx?gclid=EAIaIQobChMI9aWN-8HL7QIVkO3tCh00sAMSEAAYASAAEgLpZfD_BwE&gclsrc=aw.ds"target="_blank">
+            <img src="imagenes/hp.png" alt=""></a>
+            <a class="asus" href="https://www.asus.com/es/" target="_blank">
+            <img src="imagenes/asus.jpg" alt=""></a>
+            <a href="https://www.lenovo.com/es/es/d/sale?cid=es%3Asem%7Cse%7Cgoogle%7CGesemealenovopsbbrand%7C%7Clenovo%7Ce%7C690104094%7C38191636689%7Ckwd-845751236%7Ctext%7Cbrand&gclid=EAIaIQobChMIn7i3rcTL7QIVy7HtCh3xBQm6EAAYASAAEgI60fD_BwE&sort=sortBy&currentResultsLayoutType=grid" target="_blank">
+            <img src="imagenes/lenovo.png" alt=""></a>
+        <a href="https://store.acer.com/es-es/?gclid=EAIaIQobChMIttDQzsfL7QIVkWDmCh2Grgv2EAAYASAAEgJKpvD_BwE&gclsrc=aw.ds" target="_blank">
+        <img src="imagenes/acerr.jpg" alt=""></a>
+        <a href="https://eu.aoc.com/es/">
+        <img src="imagenes/aoc.jpg" alt=""></a>
+        <a href="https://www.philips.es/c-e/tienda/regalos-para-navidad?origin=7_700000001609237_71700000033571307_58700003905536211_43700031402622433&dmcm=EAIaIQobChMI44Hr7dHL7QIVluvtCh2yPABQEAAYASAAEgLcYPD_BwE&gclid=EAIaIQobChMI44Hr7dHL7QIVluvtCh2yPABQEAAYASAAEgLcYPD_BwE&gclsrc=aw.ds" target="_blank"><img src="imagenes/philips.png" alt=""></a>
+        </section>
+        <div id="linea3"></div>
+        <section id="redes"> <!-- FOOTER !-->
+            <p id="logo">¡Sigueme en mis redes sociales!</p>
+            <a href="https://www.instagram.com/noel.0z/" target="_blank"><img src="imagenes/ig.png" alt=""></a>
+            <h1>noel.0z</h1>
+            <a href="https://twitter.com/GymleyZ" target="_blank"><img src="imagenes/twitter.png" alt=""></a>
+            <h1>GymleyZ</h1>
+            <a href="https://www.facebook.com/noel.millanrebollo.9/" target="_blank"><img src="imagenes/facebook.png" alt=""></a>
+            <h1>Noel Millán Rebollo</h1>
+        </section>
+    </div>
+</body>
+</html>
